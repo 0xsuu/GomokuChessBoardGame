@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A435D9271C4871C10032150E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A435D9261C4871C10032150E /* main.cpp */; };
+		A435D92F1C4871F90032150E /* ChessBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A435D92E1C4871F90032150E /* ChessBoard.cpp */; };
+		A435D9321C487DCC0032150E /* ChessBoardGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A435D9301C487DCC0032150E /* ChessBoardGame.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A435D9211C4871C10032150E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A435D9231C4871C10032150E /* GomokuChessBoard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GomokuChessBoard; sourceTree = BUILT_PRODUCTS_DIR; };
+		A435D9261C4871C10032150E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A435D92D1C4871E30032150E /* ChessBoard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ChessBoard.hpp; sourceTree = "<group>"; };
+		A435D92E1C4871F90032150E /* ChessBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChessBoard.cpp; sourceTree = "<group>"; };
+		A435D9301C487DCC0032150E /* ChessBoardGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChessBoardGame.cpp; sourceTree = "<group>"; };
+		A435D9311C487DCC0032150E /* ChessBoardGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ChessBoardGame.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A435D9201C4871C10032150E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A435D91A1C4871C10032150E = {
+			isa = PBXGroup;
+			children = (
+				A435D9251C4871C10032150E /* GomokuChessBoard */,
+				A435D9241C4871C10032150E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A435D9241C4871C10032150E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A435D9231C4871C10032150E /* GomokuChessBoard */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A435D9251C4871C10032150E /* GomokuChessBoard */ = {
+			isa = PBXGroup;
+			children = (
+				A435D92D1C4871E30032150E /* ChessBoard.hpp */,
+				A435D92E1C4871F90032150E /* ChessBoard.cpp */,
+				A435D9311C487DCC0032150E /* ChessBoardGame.hpp */,
+				A435D9301C487DCC0032150E /* ChessBoardGame.cpp */,
+				A435D9261C4871C10032150E /* main.cpp */,
+			);
+			path = GomokuChessBoard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A435D9221C4871C10032150E /* GomokuChessBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A435D92A1C4871C10032150E /* Build configuration list for PBXNativeTarget "GomokuChessBoard" */;
+			buildPhases = (
+				A435D91F1C4871C10032150E /* Sources */,
+				A435D9201C4871C10032150E /* Frameworks */,
+				A435D9211C4871C10032150E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GomokuChessBoard;
+			productName = GomokuChessBoard;
+			productReference = A435D9231C4871C10032150E /* GomokuChessBoard */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A435D91B1C4871C10032150E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = suu;
+				TargetAttributes = {
+					A435D9221C4871C10032150E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = A435D91E1C4871C10032150E /* Build configuration list for PBXProject "GomokuChessBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A435D91A1C4871C10032150E;
+			productRefGroup = A435D9241C4871C10032150E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A435D9221C4871C10032150E /* GomokuChessBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A435D91F1C4871C10032150E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A435D9271C4871C10032150E /* main.cpp in Sources */,
+				A435D9321C487DCC0032150E /* ChessBoardGame.cpp in Sources */,
+				A435D92F1C4871F90032150E /* ChessBoard.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A435D9281C4871C10032150E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A435D9291C4871C10032150E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A435D92B1C4871C10032150E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A435D92C1C4871C10032150E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A435D91E1C4871C10032150E /* Build configuration list for PBXProject "GomokuChessBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A435D9281C4871C10032150E /* Debug */,
+				A435D9291C4871C10032150E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A435D92A1C4871C10032150E /* Build configuration list for PBXNativeTarget "GomokuChessBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A435D92B1C4871C10032150E /* Debug */,
+				A435D92C1C4871C10032150E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A435D91B1C4871C10032150E /* Project object */;
+}

@@ -18,11 +18,21 @@ private:
     int board[15][15];
     int steps;
     
+    int countH=0;
+    int countV=0;
+    int countD1=0;
+    int countD2=0;
+    int countD3=0;
+    int countD4=0;
+    int scanLines(int num);
+    int scanDiagonals(int num);
+    
 public:
     ChessBoard();
     void getBoard(int board[15][15]);
     void printBoard();
     int setOnChess(int chess, int x, int y);
+    int checkWin();
 };
 
 #endif /* ChessBoard_h */

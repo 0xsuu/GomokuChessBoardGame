@@ -72,6 +72,18 @@ int ChessBoard::setOnChess(int chess, int x, int y)
     }
 }
 
+bool ChessBoard::checkOnBoard(int x, int y)
+{
+	if (board[x][y] == 0)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
+
 int ChessBoard::checkWin()
 {
     int i = this->scanLines(5);

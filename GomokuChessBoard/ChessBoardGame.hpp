@@ -12,24 +12,32 @@
 #include <iostream>
 #include "ChessBoard.hpp"
 
+class AI;
+
 class ChessBoardGame
 {
 private:
-    ChessBoard myBoard = ChessBoard();
     int started;
     
     int play(int player, int x, int y);
     
     void gameover(int lose);
+	
+	AI *ai1;
+	AI *ai2;
     
 public:
     ChessBoardGame();
-    
+	
+	ChessBoard myBoard = ChessBoard();
+	
     int lastStep[2];
     
     int P1();
     int P2();
-    
+	
+	int boundary[4] = {7, 7, 7, 7};
+	
     void startGame(int first);
 
 };

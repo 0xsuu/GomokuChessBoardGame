@@ -10,6 +10,7 @@
 		A435D9271C4871C10032150E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A435D9261C4871C10032150E /* main.cpp */; };
 		A435D92F1C4871F90032150E /* ChessBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A435D92E1C4871F90032150E /* ChessBoard.cpp */; };
 		A435D9321C487DCC0032150E /* ChessBoardGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A435D9301C487DCC0032150E /* ChessBoardGame.cpp */; };
+		A4F3DA8B1D19F3E500F92D44 /* AI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4F3DA891D19F3E500F92D44 /* AI.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		A435D92E1C4871F90032150E /* ChessBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChessBoard.cpp; sourceTree = "<group>"; };
 		A435D9301C487DCC0032150E /* ChessBoardGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChessBoardGame.cpp; sourceTree = "<group>"; };
 		A435D9311C487DCC0032150E /* ChessBoardGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ChessBoardGame.hpp; sourceTree = "<group>"; };
+		A4F3DA891D19F3E500F92D44 /* AI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AI.cpp; sourceTree = "<group>"; };
+		A4F3DA8A1D19F3E500F92D44 /* AI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AI.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				A435D92E1C4871F90032150E /* ChessBoard.cpp */,
 				A435D9311C487DCC0032150E /* ChessBoardGame.hpp */,
 				A435D9301C487DCC0032150E /* ChessBoardGame.cpp */,
+				A4F3DA8A1D19F3E500F92D44 /* AI.hpp */,
+				A4F3DA891D19F3E500F92D44 /* AI.cpp */,
 				A435D9261C4871C10032150E /* main.cpp */,
 			);
 			path = GomokuChessBoard;
@@ -129,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A435D9271C4871C10032150E /* main.cpp in Sources */,
+				A4F3DA8B1D19F3E500F92D44 /* AI.cpp in Sources */,
 				A435D9321C487DCC0032150E /* ChessBoardGame.cpp in Sources */,
 				A435D92F1C4871F90032150E /* ChessBoard.cpp in Sources */,
 			);
@@ -249,6 +255,7 @@
 				A435D92C1C4871C10032150E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

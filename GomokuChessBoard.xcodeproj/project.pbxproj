@@ -11,6 +11,7 @@
 		A435D92F1C4871F90032150E /* ChessBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A435D92E1C4871F90032150E /* ChessBoard.cpp */; };
 		A435D9321C487DCC0032150E /* ChessBoardGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A435D9301C487DCC0032150E /* ChessBoardGame.cpp */; };
 		A4F3DA8B1D19F3E500F92D44 /* AI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4F3DA891D19F3E500F92D44 /* AI.cpp */; };
+		A4F3DA8E1D1C8A4D00F92D44 /* Learning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4F3DA8C1D1C8A4D00F92D44 /* Learning.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		A435D9311C487DCC0032150E /* ChessBoardGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ChessBoardGame.hpp; sourceTree = "<group>"; };
 		A4F3DA891D19F3E500F92D44 /* AI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AI.cpp; sourceTree = "<group>"; };
 		A4F3DA8A1D19F3E500F92D44 /* AI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AI.hpp; sourceTree = "<group>"; };
+		A4F3DA8C1D1C8A4D00F92D44 /* Learning.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Learning.cpp; sourceTree = "<group>"; };
+		A4F3DA8D1D1C8A4D00F92D44 /* Learning.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Learning.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				A435D9301C487DCC0032150E /* ChessBoardGame.cpp */,
 				A4F3DA8A1D19F3E500F92D44 /* AI.hpp */,
 				A4F3DA891D19F3E500F92D44 /* AI.cpp */,
+				A4F3DA8D1D1C8A4D00F92D44 /* Learning.hpp */,
+				A4F3DA8C1D1C8A4D00F92D44 /* Learning.cpp */,
 				A435D9261C4871C10032150E /* main.cpp */,
 			);
 			path = GomokuChessBoard;
@@ -137,6 +142,7 @@
 				A4F3DA8B1D19F3E500F92D44 /* AI.cpp in Sources */,
 				A435D9321C487DCC0032150E /* ChessBoardGame.cpp in Sources */,
 				A435D92F1C4871F90032150E /* ChessBoard.cpp in Sources */,
+				A4F3DA8E1D1C8A4D00F92D44 /* Learning.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

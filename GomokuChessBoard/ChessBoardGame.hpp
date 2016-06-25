@@ -27,11 +27,19 @@ private:
 	AI *ai2;
     
 public:
+	void release()
+	{
+		free(ai1);
+		free(ai2);
+	}
+	
     ChessBoardGame();
 	
 	ChessBoard myBoard = ChessBoard();
 	
     int lastStep[2];
+	
+	int steps = 0;
     
     int P1();
     int P2();

@@ -24,9 +24,20 @@ ChessBoard::ChessBoard()
     }
 }
 
-void ChessBoard::getBoard(int (*board)[15])
+void ChessBoard::clearBoard()
 {
-    board = this->board;
+	for (int i = 0; i < 15; i ++)
+	{
+		for (int j = 0; j < 15; j ++)
+		{
+			this->board[i][j] = 0;
+		}
+	}
+}
+
+void ChessBoard::getBoard(int board[15][15])
+{
+    copy(&(this->board[0][0]), &(this->board[0][0])+255, &board[0][0]);
 }
 
 void ChessBoard::printBoard()
@@ -72,16 +83,9 @@ int ChessBoard::setOnChess(int chess, int x, int y)
     }
 }
 
-bool ChessBoard::checkOnBoard(int x, int y)
+int ChessBoard::checkOnBoard(int x, int y)
 {
-	if (board[x][y] == 0)
-	{
-		return true;
-	}
-	else
-	{
-		return false;
-	}
+	return board[x][y];
 }
 
 int ChessBoard::checkWin()
